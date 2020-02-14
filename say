@@ -1,0 +1,9 @@
+#!/bin/bash
+dict.py $1
+echo "__________________________" >> ~/dict.txt
+echo "                      "
+dict.py $1 >> ~/dict.txt
+echo $1 >> ~/words.txt
+echo "--------" >> ~/words.txt
+exit 0
+
